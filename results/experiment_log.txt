@@ -1,0 +1,15 @@
+
+EXPERIMENTAL RESULTS LOG
+========================
+1. GNN (Baseline)
+   - Overall: 51.61%
+   - Weakness: Overfits to Tumor (86%), ignores Stroma.
+
+2. GAT (Weighted)
+   - Overall: 58.18% (BEST)
+   - Strength: Excellent Immune detection (63%).
+
+3. GATv2 (Morphology-Aware)
+   - Overall: 57.73%
+   - Strength: Best Stroma detection (57.35%) and best class balance.
+   - Note: Lower loss (1.03) indicates better convergence than GAT (1.10).
